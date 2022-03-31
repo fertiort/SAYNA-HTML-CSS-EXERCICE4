@@ -1,0 +1,47 @@
+body{
+    margin: 0;
+}
+
+/* font initialize */
+@font-face {
+    font-family: "Montserrat";
+    src: url("../Montserrat-VariableFont_wght.ttf");
+}
+@font-face {
+    font-family: "Montserrat-semibold";
+    src: url("../static/Montserrat-SemiBold.ttf");
+}
+
+/* begin header css */
+header{
+    background-color: #b11313;
+    display: flex;
+    padding: 1.2% 12%;
+    justify-content: space-between;
+}
+
+header a {
+    color: #fff;
+    text-decoration: none;
+    font-family: "Montserrat-semibold";
+    
+    font-size: 20px;
+}
+header nav{
+    width: 60%;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+
+header .logo-marvel{
+    display: flex;
+    align-items: center;
+    width: 27%;
+}
+
+
+/* end header css */
+
+
+/* begin section 1*/
