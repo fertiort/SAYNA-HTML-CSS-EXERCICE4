@@ -4,6 +4,10 @@ body{
 
 /* font initialize */
 @font-face {
+    font-family: "Farfromhome";
+    src: url("../Typo-FarFromHomecoming.woff2");
+}
+@font-face {
     font-family: "Montserrat";
     src: url("../Montserrat-VariableFont_wght.ttf");
 }
@@ -43,6 +47,55 @@ header .logo-marvel{
 
 /* end header css */
 
+/* begin section4 */
+.section4{
+    background-color: #114c92;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+}
+.section4 .form-section4{
+    width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.section4 .title{
+    font-family:"Farfromhome", serif;
+    font-size: 32px;
+    text-align: center;
+}
+.section4 .form-txt{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.section4 .form-txt input{
+    margin: 1% 0.2%;
+    border: 1px solid #000;
+    border-radius: 50px;
+    padding-left: 3%;
+    height: 28px;
+    font-size: 14px;
+    width: 75%;
+}
+.section4 .form-btn{
+    display: flex;
+    justify-content: center;
+}
+.section4 .form-btn button{
+    border: 1px solid #fff;
+    width: 35%;
+    margin: 10% 0%;
+    height: 50px;
+    border-radius: 15px;
+    background-color: #114c92;
+    color: #fff;
+    font-family: "Montserrat";
+    font-size: 14px;
+}
+
+/* end section4 */
 
 /* begin footer*/
 footer{
