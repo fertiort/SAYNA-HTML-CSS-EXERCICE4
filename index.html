@@ -26,13 +26,34 @@
                 <img src="Assets/Logo/logo2.png" class="logox" alt="">
                 <img src="Assets/Logo/logo3.png" class="logomarvel"alt="">
             </div>
-            <nav>
+            <!-- <nav class="menumobil">
                 <a href="index.html">Accueil</a>
                 <a href="adversaire.html">Adversaires</a>
                 <a href="hero.html">Héros</a>
                 <a href="a-propos.html">A propos</a>
+            </nav> -->
+            <nav class="navbar dark-mode" role="navigation"> 
+                <ul class="navbar__links">
+                  <li class="navbar__link first"><a href="index.html">Accueil</a></li>
+                  <li class="navbar__link second"><a href="adversaire.html">Adversaires</a></li>
+                  <li class="navbar__link third"><a href="hero.html">Héros</a></li>
+                  <li class="navbar__link four"><a href="a-propos.html">A propos</a></li>
+                </ul>   
+                <button class="burger">
+                  <span class="bar"></span>  
+                </button>   
             </nav>
+            
         </header>
+        
+          <script>function toggleMenu () {  
+            const navbar = document.querySelector('.navbar');
+            const burger = document.querySelector('.burger');
+            burger.addEventListener('click', (e) => {    
+              navbar.classList.toggle('show-nav');
+            });    
+          }
+          toggleMenu();</script>
     
         <div class="section1">
             <div class="container-section1">

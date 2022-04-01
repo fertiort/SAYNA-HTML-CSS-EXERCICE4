@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Bonus</title><link rel="stylesheet" href="Assets/css/css/bootstrap.css">
+    <title>Adversaire</title><link rel="stylesheet" href="Assets/css/css/bootstrap.css">
     <link rel="stylesheet" href="Assets/css/css/font-awesome.css">
     <link rel="stylesheet" media="all and (max-device-width : 500px)" href="Assets/css/advmobil.css">
     <link rel="stylesheet" media="all and (min-device-width : 500px) and (max-device-width : 2800px)" href="Assets/css/adv.css">
@@ -18,28 +18,25 @@
                 <img src="Assets/Logo/logo2.png" class="logox" alt="">
                 <img src="Assets/Logo/logo3.png" class="logomarvel"alt="">
             </div>
-            <nav>
-                
-                
-                <a href="index.html">Accueil</a>
-                <a href="adversaire.html">Adversaires</a>
-                <a href="hero.html">Héros</a>
-                <a href="a-propos.html">A propos</a>
-
-                
+            <nav class="navbar dark-mode" role="navigation"> 
+                <ul class="navbar__links">
+                  <li class="navbar__link first"><a href="index.html">Accueil</a></li>
+                  <li class="navbar__link second"><a href="adversaire.html">Adversaires</a></li>
+                  <li class="navbar__link third"><a href="hero.html">Héros</a></li>
+                  <li class="navbar__link four"><a href="a-propos.html">A propos</a></li>
+                </ul>   
+                <button class="burger">
+                  <span class="bar"></span>  
+                </button>   
             </nav>
-            <div class="navmobil dropdown">
-                <p data-toggle="dropdown">...</p>
-                <div class="dropdown-menu" >
-                    <a href="" class="dropdown-item">Accueil</a>
-                    <a href="" class="dropdown-item">Adversaires</a>
-                    <a href="" class="dropdown-item">Héros</a>
-                    <a href="" class="dropdown-item">A propos</a>
-                </div>
-                    
-                    
-            </div>
-
+            <script>function toggleMenu () {  
+                const navbar = document.querySelector('.navbar');
+                const burger = document.querySelector('.burger');
+                burger.addEventListener('click', (e) => {    
+                  navbar.classList.toggle('show-nav');
+                });    
+              }
+              toggleMenu();</script>
             
         </header>
     
