@@ -2,29 +2,114 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Marvel</title>
     <link rel="stylesheet" href="Assets/css/css/bootstrap.css">
-    <link rel="stylesheet" href="Assets/css/home.css">
+    <link rel="stylesheet" media="all and (max-device-width : 500px)" href="Assets/css/css/mobilhome.css">
+    <link rel="stylesheet" media="all and (min-device-width : 500px) and (max-device-width : 2800px)" href="Assets/css/home.css">
+    <style>
+        .audio{
+            position: fixed;
+            bottom: 5%;
+            left: 5%;
+        }
+    </style>
 </head>
 <body>
-    <header>
-        <div class="logo-marvel">
-            <img src="Assets/Logo/logo1.png" width="16%" alt="">
-            <img src="Assets/Logo/logo2.png" style="margin: 0% 8%;" alt="">
-            <img src="Assets/Logo/logo3.png" width="46%" height="92%" alt="">
+    <div class="audio">
+        <audio src="Assets/audio1.mp3" autoplay controls ></audio>
+    </div>
+    <div class="header-mobile">
+
+        <header>
+            <div class="logo-marvel">
+                <img src="Assets/Logo/logo1.png" class="logosayna" alt="">
+                <img src="Assets/Logo/logo2.png" class="logox" alt="">
+                <img src="Assets/Logo/logo3.png" class="logomarvel"alt="">
+            </div>
+            <nav>
+                <a href="index.html">Accueil</a>
+                <a href="adversaire.html">Adversaires</a>
+                <a href="hero.html">Héros</a>
+                <a href="a-propos.html">A propos</a>
+            </nav>
+        </header>
+    
+        <div class="section1">
+            <div class="container-section1">
+                <div class="title">
+                    SPIDERMAN
+                </div>
+                <div class="dispo-mobile">
+
+                    <div class="button-title">
+                        <button class="sayan-btn">Voir les Héros</button>
+                        <button class="sayan-btn white">Voir les Adversaires</button>
+                    </div>
+                    
+                    <h2> L'araignée sympas du quartier !</h2>
+                    
+                </div>
+            </div>
         </div>
-        <nav>
-            <a href="">Accueil</a>
-            <a href="">Adversaires</a>
-            <a href="">Héros</a>
-            <a href="">A propos</a>
-        </nav>
-    </header>
+    </div>
+
+
+    <div class="section2">
+        <div class="title-section2">
+            <h1>LES SPIDERMANS AU CINEMA</h1>
+            <span>
+                Spiderman a pu bénéficier de reboot qui ont permis d'adapter ses histoires pour chaque générations !
+            </span>
+        </div>
+    </div>
+    <div class="section2a">
+        <div class="content-section2">
+            <div class="section2-img">
+                <img src="Assets/Illustration/img2.png" alt="">
+            </div>
+            <div class="section2-txt">
+                Trois films Spiderman sont sortis en 2002, 2004 et 2007. Ils sont produits par Columbia Pictures et Spiderman est incarné par Tobey Maguire. Un quatrième était prévu mais sera finalement annulé suite à des désaccords entre Sam Raimi (le réalisateur) et Sony. <br> Cette prenmière trilogie a connu un grand succès auprès des fans et du grand public. L'épisode 3 reste à ce jour un des films les plus chers de l'histoire du cinéma.
+            </div>
+            <div class="section2-btn">
+                <button class="sayan-btn">
+                    Voir ses adversaires
+                </button>
+            </div>
+        </div>
+        <div class="content-section2">
+            <div class="section2-img">
+                <img src="Assets/Illustration/img3.png" alt="">
+            </div>
+            <div class="section2-txt">
+               The Amazing Spiderman est sorti en 2012, c'est Andrew Garfield qui incarne le héro et Marc Webb à la réalisation. Un deuxième volet, the Amazing Spider-Man : Le destin d'un héros, est sorti en 2014 et a reçu des critiques très mitigées. Un troisième et quatrième film étaient prévus pour 2016 et 2018. Finalement, Marvel et Sony trouvent un accord pour introduire Spiderman dans l'Univers cinématographique Marvel et abandonne ainsi The Amazing Spider-Man.
+            </div>
+            <div class="section2-btn">
+                <button class="sayan-btn">
+                    Voir ses adversaires
+                </button>
+            </div>
+        </div>
+        <div class="content-section2">
+            <div class="section2-img">
+                <img src="Assets/Illustration/img4.png" alt="">
+            </div>
+            <div class="section2-txt">
+                Spiderman, désormais incarné par Tom Holland, apparaît pour la première fois dans l'univers Marvel avec Capitain America: Civil War, sorti en 2016. Par la suite, une trilogie de films lui est consacrée:<br> 
+                . Spiderman : Homecoming (2017) <br>
+                . Spiderman : Far From Home (2019) <br>
+                . Spiderman : No Way Home (2021) <br>
+                Le héro est également présent dans Avengers Infinity War et Avengers End Game, combattant au coté des Avengers.
+            </div>
+            <div class="section2-btn">
+                <button class="sayan-btn">
+                    Voir ses adversaires
+                </button>
+            </div>
+        </div>
+    </div>
 
     <div class="section4">
-        <div>
+        <div class="mobilev-section4">
             <img src="Assets/Illustration/img5.png" alt="">
         </div>
         <div class="form-section4">
@@ -47,18 +132,49 @@
         </div>
     </div>
 
+    <div class="section3">
+        <div class="form-section3">
+            <div class="panel-title-section3">
+                <h1>INSCRIT TOI A LA NEWSLETTER!</h1>
+                <span>l'univers de l'araignée justicière te passionne? Reste au courant des dernières actualités grâce à notre newsletter !</span>    
+            </div>
+            <form action="">
+                <input type="text" name="" placeholder="Nom Prénom" id="">
+                <input type="text" name="" placeholder="Adresse email" id="">
+
+                <div class="checkbox">
+                    <div class="chebox-elemt">
+                        <input type="checkbox" name="" id="">
+                    </div>
+                    <div class="checkbox-label">
+                        Je reconnais accepter la <a href="">politique de confidentialité</a> de Sayana X Marvel.
+                    </div>
+                </div>
+
+                <div class="btn-section3">
+                    <button class="sayan-btn">
+                        S'inscrire à la newsletter
+                    </button>
+                </div>
+            </form>
+        </div>
+        <img src="Assets/Illustration/img6.png" alt="">
+    </div>
+
     <footer>
         <div class="nav-footer">
-            <div>Mobile app</div>
-            <div>Politique de confidentialité</div>
-            <div>Cookies</div>
-            <div class="logo-marvel-footer">
-                <img src="Assets/Logo/logo1.png" width="16%" alt="">
-                <img src="Assets/Logo/logo2.png" style="margin: 0% 2%;" alt="">
-                <img src="Assets/Logo/logo3.png" width="46%" height="100%" alt="">
+            <div class="footermobil">
+                <div>Mobile app</div>
+                <div>Politique de confidentialité</div>
+                <div>Cookies</div>
+                <div class="logo-marvel-footer">
+                    <img src="Assets/Logo/logo1.png" width="16%" alt="">
+                    <img src="Assets/Logo/logo2.png" style="margin: 0% 2%;" alt="">
+                    <img src="Assets/Logo/logo3.png" width="46%" height="100%" alt="">
+                </div>
+                <div>Contact</div>
+                <div>Blog</div>
             </div>
-            <div>Contact</div>
-            <div>Blog</div>
             <div class="btn-lang">
                 <form action="">
 
@@ -73,6 +189,14 @@
                     </div>
 
                 </form>
+            </div>
+        </div>
+
+        <div class="footerlogomobil">
+            <div class="logo-marvel-footer">
+                <img src="Assets/Logo/logo1.png" class="logosayna" alt="">
+                <img src="Assets/Logo/logo2.png" class="logox" alt="">
+                <img src="Assets/Logo/logo3.png" class="logomarvel"alt="">
             </div>
         </div>
         <div class="footer-logo-rs">

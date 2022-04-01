@@ -1,0 +1,184 @@
+body{
+    margin: 0;
+}
+
+/* font initialize */
+@font-face {
+    font-family: "Farfromhome";
+    src: url("../Typo-FarFromHomecoming.woff2");
+}
+@font-face {
+    font-family: "Montserrat";
+    src: url("../Montserrat-VariableFont_wght.ttf");
+}
+@font-face {
+    font-family: "Montserrat-semibold";
+    src: url("../static/Montserrat-SemiBold.ttf");
+}
+
+
+/* begin header css */
+header{
+    background-color: #f1c530;
+    display: flex;
+    padding: 1.2% 12%;
+    justify-content: space-between;
+}
+
+header a {
+    color: #fff;
+    text-decoration: none;
+    font-family: "Montserrat-semibold";
+    
+    font-size: 20px;
+}
+header nav{
+    width: 60%;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+
+header .logo-marvel{
+    display: flex;
+    align-items: center;
+    width: 27%;
+}
+.logosayna{
+    width: 16%;
+}
+.logox{
+    margin: 0% 8%;
+}
+.logomarvel{
+    width: 46%;
+    height: 92%;
+}
+
+.navmobil{
+    display: none;
+}
+/* end header css */
+
+/* begin section1 */
+.section1{
+    background-image: url("../Illustration/img7.png");
+    color: #fff;
+    font-family: "Montserrat-semibold"; 
+    font-size: 20px;
+}
+.s1-content{
+    padding-left: 10%;
+    padding-top: 20%;
+    padding-bottom: 18%;
+}
+.s1-content h1{
+    font-size: 70px;
+}
+
+/* end section1 */
+
+
+/* begin section2 */
+.section2 {
+    background-color: #f1c530;
+    color: #000;
+    font-family: "Montserrat";
+    padding: 5% 10%;
+}
+.section2 .item{
+    width: 30%;
+    border: 10px solid;
+    padding: 1%;
+    border-radius: 45px;
+}
+.section2 .item img{
+    margin-left: -7.5%;
+    margin-top: -8%;
+    width: 115%;
+}
+.section2 .item .content .content-name{
+    text-align: center;
+    font-weight: bold;
+    font-size: 25px;
+    margin-bottom: 5%;
+}
+.section2 .item .content .content-caract div{
+    margin-bottom: 2%;
+}
+.list-adv{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.section2 .item{
+    margin: 2% 1%;
+}
+/* end section2 */
+
+/* begin footer*/
+footer{
+    background-color: #000;
+    color: #fff;
+    padding: 0% 10%;
+    font-family: "Montserrat";
+    font-size: 14px;
+}
+footer .nav-footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5% 0%;
+    
+}
+.footermobil{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5% 0%;
+    margin-right: 2%;
+}
+footer .logo-marvel-footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: -5%;
+    margin-left: -5%;
+}
+
+footer .lang{
+    border: none;
+    background-color: #f1c530;
+    box-shadow: none;
+    color: #fff;
+    border-radius: 50px;
+}
+
+footer .btn-lang{
+    width: 22%;
+}
+.btn-group{
+    width: 100%;
+}
+
+footer .footer-logo-rs{
+    display: flex;
+    justify-content: center;
+    margin: 3% 0%;
+}
+
+footer .footer-logo-rs a{
+    background-color: #f1c530;
+    padding: 5px;
+    border-radius: 50px;
+    margin: 0% 0.5%;
+}
+
+footer .corpyright{
+    text-align: center;
+    padding-bottom: 3%;
+}
+.footerlogomobil{
+    display: none;
+}
+/* end footer */

@@ -1,0 +1,208 @@
+
+/* font initialize */
+@font-face {
+    font-family: "Farfromhome";
+    src: url("../Typo-FarFromHomecoming.woff2");
+}
+@font-face {
+    font-family: "Montserrat";
+    src: url("../Montserrat-VariableFont_wght.ttf");
+}
+@font-face {
+    font-family: "Montserrat-semibold";
+    src: url("../static/Montserrat-SemiBold.ttf");
+}
+
+/* begin header */
+
+/* begin section1 */
+.section1{
+    background-image: url("../Illustration/img7.png");
+    background-size: 100%;
+    margin-top: -11%;
+    color: #fff;
+    font-family: "Montserrat-semibold"; 
+    font-size: 20px;
+}
+.s1-content{
+    padding-left: 10%;
+    padding-top: 20%;
+    padding-bottom: 15%;
+}
+.s1-content h1{
+    font-size: 50px;
+}
+
+/* end section1 */
+
+
+
+/* begin section2 */
+.section2 {
+    background-color: #f1c530;
+    color: #000;
+    font-family: "Montserrat";
+    padding: 5% 10%;
+}
+.section2 .item{
+    width: 75%;
+    border: 10px solid;
+    padding: 1%;
+    border-radius: 45px;
+}
+.section2 .item img{
+    margin-left: -3.5%;
+    margin-top: -8%;
+    width: 106.5%;
+}
+.section2 .item .content .content-name{
+    text-align: center;
+    font-weight: bold;
+    font-size: 25px;
+    margin-bottom: 5%;
+}
+.section2 .item .content .content-caract div{
+    margin-bottom: 2%;
+}
+.list-adv{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.section2 .item{
+    margin: 5% 1%;
+}
+/* end section2 */
+
+
+.header-mobile{
+    background-color: rgba(0, 0, 0, 0);
+    background-size: 100%;
+    width: 100%;
+    color: #fff;
+    padding: 0% 8%;
+}
+.header-mobile .logosayna{
+    width: 20%;
+}
+.header-mobile .logox{
+    margin: 0% 3%;
+    width: 10%;
+}
+.logomarvel{
+    width: 60%;
+    height: 70px;
+}
+header{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 2% 0%;
+}
+nav{
+    display: none;
+}
+.menumobile{
+    font-family: "Montserrat-semibold";
+    font-size: 79px;
+    margin-top: -33px;
+}
+
+
+/* end header */
+
+
+
+/* begin footer*/
+footer{
+    background-color: #000;
+    color: #fff;
+    padding: 0% 10%;
+    font-family: "Montserrat";
+    font-size: 20px;
+}
+footer .nav-footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5% 0%;
+    
+}
+.footermobil{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: flex-start;
+    padding: 5% 0%;
+    margin-right: 2%;
+}
+footer .footermobil .logo-marvel-footer{
+    display: none;
+    align-items: center;
+    justify-content: center;
+    margin-right: -5%;
+    margin-left: -5%;
+}
+
+footer .lang{
+    border: none;
+    background-color: #f1c530;
+    box-shadow: none;
+    color: #fff;
+    border-radius: 50px;
+}
+
+footer .btn-lang{
+    width: 22%;
+}
+.btn-group{
+    width: 100%;
+}
+
+footer .footer-logo-rs{
+    display: flex;
+    justify-content: center;
+    margin: 3% 0%;
+}
+
+footer .footer-logo-rs a{
+    background-color: #f1c530;
+    padding: 5px;
+    border-radius: 50px;
+    margin: 0% 2%;
+    width: 75px;
+    height: 75px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+footer .footer-logo-rs a img{
+    width: 55%;
+}
+
+footer .corpyright{
+    text-align: center;
+    padding-bottom: 3%;
+}
+.footerlogomobil, .footerlogomobil .logo-marvel-footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footerlogomobil{
+    margin-bottom: 7%;
+}
+.footerlogomobil .logo-marvel-footer .logosayna{
+    width: 125px;
+}
+.footerlogomobil .logo-marvel-footer .logox{
+    margin: 0% 5%;
+    width: 50px;
+    
+}
+.footerlogomobil .logo-marvel-footer .logomarvel{
+    width: 70%;
+}
+/* end footer */

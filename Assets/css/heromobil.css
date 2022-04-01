@@ -1,0 +1,335 @@
+
+/* font initialize */
+@font-face {
+    font-family: "Farfromhome";
+    src: url("../../Typo-FarFromHomecoming.woff2");
+}
+@font-face {
+    font-family: "Montserrat";
+    src: url("../../Montserrat-VariableFont_wght.ttf");
+}
+@font-face {
+    font-family: "Montserrat-semibold";
+    src: url("../../static/Montserrat-SemiBold.ttf");
+}
+
+/* begin header */
+
+
+
+.header-mobile{
+    background-color: rgba(0, 0, 0, 0);
+    background-size: 100%;
+    width: 100%;
+    color: #fff;
+    padding: 0% 8%;
+}
+.header-mobile .logosayna{
+    width: 20%;
+}
+.header-mobile .logox{
+    margin: 0% 3%;
+    width: 10%;
+}
+.logomarvel{
+    width: 60%;
+    height: 70px;
+}
+header{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 2% 0%;
+}
+nav{
+    display: none;
+}
+.menumobile{
+    font-family: "Montserrat-semibold";
+    font-size: 79px;
+    margin-top: -33px;
+}
+
+
+/* end header */
+
+
+/* begin section1 */
+.section1{
+    background-image: url("../Illustration/img19.png");
+    background-size: 118%;
+    color: #fff;
+    margin-top: -11%;
+}
+.s1-content{
+    padding-left: 10%;
+    padding-top: 20%;
+    padding-bottom: 17%;
+}
+.s1-content h1{
+    font-family: "Farfromhome";
+    font-size: 80px;
+}
+.s1-content span{
+    font-family: "Montserrat-semibold";
+    font-size: 33px;
+}
+/* end section1 */
+
+
+/* begin section2 */
+.section2{
+    background-color: #114c92;
+    padding: 6% 10%;
+    font-family: "Montserrat";
+    color: #fff;
+}
+.s2-content-title{
+    text-align: center;
+    width: 50%;
+    margin: auto;
+}
+.s2-content-title h1{
+    font-family: "Farfromhome";
+    font-size: 40px;
+}
+.s2-content-title span{
+    font-family: "Montserrat-semibold";
+    font-size: 27px;
+}
+.s2-content-item{
+    display: flex;
+    flex-direction: column;
+    margin-top: 5%;
+}
+.s2-content-txt{
+    font-size: 20px;
+    text-align: justify;
+}
+.s2-content-video{
+    margin-top: 7%;
+    padding-left: 9%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.responsive-s2{
+    text-align: center;
+}
+.s2-content-video video{
+    width: 100%;
+}
+/* end section2 */
+
+
+/* begin section3 */
+.section3{
+    background-image: url(../Illustration/img20.png);
+    background-size: 194%;
+    background-position-x: 37%;
+    color: #fff;
+}
+.s3-content{
+    padding-left: 0%;
+    padding-top: 15%;
+    padding-bottom: 32%;
+    text-align: center;
+}
+.s3-content h1{
+    font-family: "Farfromhome";
+    font-size: 65px;
+}
+.s3-content span{
+    font-family: "Montserrat-semibold";
+    font-size: 30px;
+}
+/* end section3 */
+
+
+/*  begin section4 */
+.section4{
+    background-color: #114c92;
+    color: #fff;
+    font-family: "Montserrat";
+    font-size: 14px;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 7%;
+    padding-bottom: 7%;
+}
+.s4-content-txt{
+    display: flex;
+    margin-bottom: 5%;
+    flex-direction: column;
+}
+.s4-content-txt .s4-txtl, .s4-content-txt .s4-txtr{
+    
+    padding: 1%;
+}
+.s4-content-txt p{
+    text-align: justify;
+    margin-bottom: 4%;
+    font-size: 20px;
+}
+
+.s4-content-friends .s4-title h1, .s4-titlereps h1{
+    font-family: "Farfromhome";
+    font-size: 60px;
+}
+.s4-content-friends .s4-title span{
+    font-family: "Montserrat";
+    font-size: 30px;
+}
+.s4-content-friends .s4-title{
+    margin-bottom: 10%;
+    text-align: center;
+}
+.s4-titlereps h1{
+    font-size: 50px;
+}
+.s4-content-friends1, .s4-content-friends2{
+    display: flex;
+    flex-direction: column;
+}
+.s4-friends-img{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10%;
+}
+.s4-content-friends1 .s4-friends-img img{
+    margin-bottom: 5%;
+}
+.s4-friends-txt p{
+    text-align: justify;
+    font-size: 20px;
+}
+.s4-content-friends1 .s4-friends-txt h1{
+    text-align: center;
+    display: none;
+}
+.s4-friends-txt h1{
+    font-family: "Farfromhome";
+    font-size: 32px;  
+}
+.s4-content-friends1{
+    margin-bottom: 3%;
+}
+.s4-content-friends2 H1{
+    display: none;
+}
+.s4-content-friends2{
+    flex-direction: column;
+}
+.s4-content-friends2 .s4-friends-img{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.s4-content-friends2 .s4-friends-img{
+    padding: 7% 0%;
+}
+.s4-content-friends{
+    margin-bottom: 2%;
+}
+
+/* end section4 */
+
+/* hidden */
+.section6, .section5{
+    display: none;
+}
+/* begin footer*/
+footer{
+    background-color: #000;
+    color: #fff;
+    padding: 0% 10%;
+    font-family: "Montserrat";
+    font-size: 20px;
+}
+footer .nav-footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5% 0%;
+    
+}
+.footermobil{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: flex-start;
+    padding: 5% 0%;
+    margin-right: 2%;
+}
+footer .footermobil .logo-marvel-footer{
+    display: none;
+    align-items: center;
+    justify-content: center;
+    margin-right: -5%;
+    margin-left: -5%;
+}
+
+footer .lang{
+    border: none;
+    background-color: #114c92;
+    box-shadow: none;
+    color: #fff;
+    border-radius: 50px;
+}
+
+footer .btn-lang{
+    width: 22%;
+}
+.btn-group{
+    width: 100%;
+}
+
+footer .footer-logo-rs{
+    display: flex;
+    justify-content: center;
+    margin: 3% 0%;
+}
+
+footer .footer-logo-rs a{
+    background-color: #114c92;
+    padding: 5px;
+    border-radius: 50px;
+    margin: 0% 2%;
+    width: 75px;
+    height: 75px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+footer .footer-logo-rs a img{
+    width: 55%;
+}
+
+footer .corpyright{
+    text-align: center;
+    padding-bottom: 3%;
+}
+.footerlogomobil, .footerlogomobil .logo-marvel-footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footerlogomobil{
+    margin-bottom: 7%;
+}
+.footerlogomobil .logo-marvel-footer .logosayna{
+    width: 125px;
+}
+.footerlogomobil .logo-marvel-footer .logox{
+    margin: 0% 5%;
+    width: 50px;
+    
+}
+.footerlogomobil .logo-marvel-footer .logomarvel{
+    width: 70%;
+}
+/* end footer */

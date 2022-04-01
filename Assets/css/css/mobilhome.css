@@ -1,0 +1,327 @@
+body{
+    
+}
+
+/* font initialize */
+@font-face {
+    font-family: "Farfromhome";
+    src: url("../../Typo-FarFromHomecoming.woff2");
+}
+@font-face {
+    font-family: "Montserrat";
+    src: url("../../Montserrat-VariableFont_wght.ttf");
+}
+@font-face {
+    font-family: "Montserrat-semibold";
+    src: url("../../static/Montserrat-SemiBold.ttf");
+}
+
+/* begin header */
+
+header nav{
+    display: none;
+}
+
+.header-mobile{
+    background-image: url("../../Illustration/img1.png");
+    background-size: 100%;
+    width: 100%;
+    color: #fff;
+    padding: 0% 8%;
+}
+.header-mobile .logosayna{
+    width: 8%;
+}
+.header-mobile .logox{
+    margin: 0% 3%;
+    width: 3%;
+}
+.logomarvel{
+    width: 25%;
+    height: 75px;
+}
+header{
+    padding-top: 1%;
+    margin-bottom: 15%;
+}
+
+.section1 .title{
+    font-family: "Farfromhome";
+    font-size: 65px;
+}
+.dispo-mobile{
+    display: flex;
+    flex-direction: column-reverse;
+}
+.sayan-btn{
+    border: 1px solid #fff;
+    width: 35%;
+    height: 80px;
+    margin-top: 8%;
+    margin-right: 7%;
+    border-radius: 50px;
+    color: #b11313;
+    font-family: "Montserrat-semibold";
+    font-size: 20px;
+}
+.white{
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.section1{
+    padding-bottom: 10%;
+}
+/* end header */
+
+
+/* begin section2 */
+.section2{
+    background-color: #b11313;
+    margin-top: -1%;
+    color: #fff;
+    padding: 2% 8%;
+    text-align: center;
+}
+.section2a{
+    background-color: #b11313;
+    color: #fff;
+    padding: 5% 8%;
+    text-align: center;
+    margin-top: -1%;
+}
+.section2a .section2-img img{
+    width: 70%;
+}
+.section2a .section2-img{
+    margin-bottom: 5%;
+}
+
+.section2a .section2-btn .sayan-btn{
+    margin-top: 6%;
+    margin-bottom: 15%;
+}
+.section2a .section2-btn{
+    display: flex;
+    justify-content: center;
+}
+/* end section2 */
+
+/* begin section4 */
+.section4{
+    background-color: #114c92;
+    background-image: url("../../Illustration/img5.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    padding: 15% 10%;
+    text-align: center;
+}
+.section4 img{
+    display: none;
+}
+.section4 .form-txt{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.mobilev-section4{
+    display: none;
+}
+
+.section4 .form-txt input{
+    margin: 2% 0.2%;
+    border: 1px solid #000;
+    border-radius: 50px;
+    padding-left: 3%;
+    height: 50px;
+    font-size: 18px;
+    width: 100%;
+}
+
+.form-section4{
+    width: 100%;
+}
+
+.section4 .form-btn button{
+    border: 3px solid #fff;
+    width: 35%;
+    margin: 10% 0%;
+    height: 81px;
+    border-radius: 50px;
+    background-color: rgba(0, 0, 0, 0);
+    color: #fff;
+    font-family: "Montserrat";
+    font-size: 25px;
+}
+
+/* end section4 */
+
+
+/* begin section3 */
+.section3{
+    background-color: #b11313;
+    color: #fff;
+    overflow: hidden;
+    background-image: url("../../Illustration/img6.png");
+    background-size: 75%;
+    background-repeat: no-repeat;
+    background-position-x: 210%;
+    background-position-y: 100%;
+}
+
+.form-section3{
+    margin: 10%;
+    text-align: center;
+}
+.btn-section3 button{
+    width: 45%;
+}
+.section3 .panel-title-section3 h1{
+    font-family:"Farfromhome", serif;
+    font-size: 45px;
+}
+.section3 .panel-title-section3 span{
+    font-size: 20px;
+}
+.section3 form{
+    margin-top: 15%;
+}
+
+.section3 form input[type="text"]{
+    display: block;
+    margin: 3% 0%;
+    width: 60%;
+    border: 2px solid #fff;
+    background-color: rgba(0, 0, 0, 0);
+    border-radius: 50px;
+    height: 50px;
+    padding-left: 2%;
+    color: #fff;
+    font-size: 20px;
+}
+
+.section3 .checkbox .chebox-elemt{
+    margin: 0% 2%; 
+}
+.section3 .checkbox{
+    display: flex;
+    color: #fff;
+    font-size: 14px;
+    width: 70%;
+    margin-top: 15%;
+}
+.section3 .checkbox a{
+    color: #fff;
+    font-size: 20px;
+}
+.section3 form input[type="checkbox"]{
+    width: 40px;
+    height: 40px;
+}
+.checkbox-label{
+    font-size: 20px;
+    text-align: left;
+}
+
+.section3 img{
+    width: 75%;
+    display: none;
+}
+/* end section3 */
+
+
+/* begin footer*/
+footer{
+    background-color: #000;
+    color: #fff;
+    padding: 0% 10%;
+    font-family: "Montserrat";
+    font-size: 20px;
+}
+footer .nav-footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5% 0%;
+    
+}
+.footermobil{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: flex-start;
+    padding: 5% 0%;
+    margin-right: 2%;
+}
+footer .footermobil .logo-marvel-footer{
+    display: none;
+    align-items: center;
+    justify-content: center;
+    margin-right: -5%;
+    margin-left: -5%;
+}
+
+footer .lang{
+    border: none;
+    background-color: #b11313;
+    box-shadow: none;
+    color: #fff;
+    border-radius: 50px;
+}
+
+footer .btn-lang{
+    width: 22%;
+}
+.btn-group{
+    width: 100%;
+}
+
+footer .footer-logo-rs{
+    display: flex;
+    justify-content: center;
+    margin: 3% 0%;
+}
+
+footer .footer-logo-rs a{
+    background-color: #b11313;
+    padding: 5px;
+    border-radius: 50px;
+    margin: 0% 2%;
+    width: 75px;
+    height: 75px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+footer .footer-logo-rs a img{
+    width: 55%;
+}
+
+footer .corpyright{
+    text-align: center;
+    padding-bottom: 3%;
+}
+.footerlogomobil, .footerlogomobil .logo-marvel-footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footerlogomobil{
+    margin-bottom: 7%;
+}
+.footerlogomobil .logo-marvel-footer .logosayna{
+    width: 125px;
+}
+.footerlogomobil .logo-marvel-footer .logox{
+    margin: 0% 5%;
+    width: 50px;
+    
+}
+.footerlogomobil .logo-marvel-footer .logomarvel{
+    width: 70%;
+}
+/* end footer */

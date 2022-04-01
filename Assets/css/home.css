@@ -43,9 +43,88 @@ header .logo-marvel{
     align-items: center;
     width: 27%;
 }
-
-
+.logosayna{
+    width: 16%;
+}
+.logox{
+    margin: 0% 8%;
+}
+.logomarvel{
+    width: 46%;
+    height: 92%;
+}
 /* end header css */
+
+/* begin section1 */
+.section1{
+    background-image: url("../Illustration/img1.png");
+    width: 100%;
+    height: 870px;
+    color: #fff;
+    padding: 21% 12%;
+}
+.section1 .title{
+    font-family: "Farfromhome";
+    font-size: 100px;
+}
+.sayan-btn{
+    border: 1px solid #fff;
+    width: 16%;
+    margin: 10% 2% 3%;
+    height: 50px;
+    border-radius: 15px;
+    color: #b11313;
+    font-family: "Montserrat-semibold";
+    font-size: 14px;
+}
+.white{
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0);
+}
+/* end section1 */
+
+/* begion section2 */
+.section2{
+    padding: 0% 12%;
+    margin-top: -7%;
+    color: #fff;
+}
+.section2a{
+    padding: 2% 12%;
+    color: #fff;
+    background-color: #b11313;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-bottom: 8%;
+}
+
+.content-section2{
+    width: 30%;
+}
+.title-section2{
+    width: 51%;
+
+}
+.title-section2 h1{
+    font-family: "Farfromhome";
+    font-size: 32px;
+}
+.content-section2 .section2-txt{
+    text-align: justify;
+    margin-bottom: 10%;
+}
+.content-section2 .section2-img{
+    margin-bottom: 15%;
+}
+.section2-btn{
+    display: flex;
+    justify-content: center;
+}
+.section2-btn button{
+    width: 70%;
+}
+/* ebd section2 */
 
 /* begin section4 */
 .section4{
@@ -97,6 +176,67 @@ header .logo-marvel{
 
 /* end section4 */
 
+/* begin section 3 */
+.section3{
+    background-color: #b11313;
+    display: flex;
+    justify-content: space-between;
+    overflow: hidden;
+    color: #fff;
+}
+.section3 img{
+    width: 75%;
+    margin-right: -10%;
+    margin-left: -15%;
+}
+.section3 .panel-title-section3 h1{
+    font-family:"Farfromhome", serif;
+    font-size: 32px;
+}
+.section3 .panel-title-section3 span{
+    font-size: 14px;
+}
+.section3 .form-section3{
+    margin-left: 12%;
+    margin-top: 8%;
+}
+.section3 form{
+    margin-top: 15%;
+}
+.section3 form input[type="text"]{
+    display: block;
+    margin: 5% 0%;
+    width: 60%;
+    border: 1px solid #fff;
+    background-color: rgba(0, 0, 0, 0);
+    border-radius: 50px;
+    padding-left: 2%;
+    color: #fff;
+    font-size: 14px;
+}
+.section3 form input[type="checkbox"]{
+    width: 17px;
+    height: 17px;
+}
+.section3 .checkbox .chebox-elemt{
+    margin: 0% 2%; 
+}
+.section3 .checkbox{
+    display: flex;
+    color: #fff;
+    font-size: 14px;
+    width: 70%;
+}
+.section3 .checkbox a{
+    color: #fff;
+    font-size: 14px;
+}
+.btn-section3 .sayan-btn{
+    width: 45%;
+    margin-left: 7%;
+}
+/* end section 3 */
+
 /* begin footer*/
 footer{
     background-color: #000;
@@ -107,9 +247,17 @@ footer{
 }
 footer .nav-footer{
     display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5% 0%;
+    
+}
+.footermobil{
+    display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 5% 0%;
+    margin-right: 2%;
 }
 footer .logo-marvel-footer{
     display: flex;
@@ -150,5 +298,8 @@ footer .footer-logo-rs a{
 footer .corpyright{
     text-align: center;
     padding-bottom: 3%;
+}
+.footerlogomobil{
+    display: none;
 }
 /* end footer */
